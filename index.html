@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework 4</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+<body>
+
+<h1>Crystal Collector Game!</h1>
+
+<h2 >Rules of the Game:</h2>
+<br>
+<div class="instructions"><p>You will be given a random number at the start of the game.  There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.  You win the game by matching your total score to the ramdom number, you lose the game if your total score goes above the random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.  Each time when the game starts, the game will change the values of each crystal.</p>
+    <br></div>
+    <div class="image">
+        <img src= "assets/images/krystalgems.png" class= "krystalgemImage" id= "" alt= "">
+        
+        </div>
+<div class="row, container">
+<h3 class="col-m-3"></h3>
+  <div class="numberToMatch">
+    <h2>Target Number:
+        <span id= "randomNumber"></span>
+    </h2>
+</div>
+  <div class="winsAndLosses">
+    <h2>Wins:
+        <span id= "numberWins"></span>
+        </br>
+        Losses: 
+        <span id= "numberLosses"></span>
+    </h2>
+</div>
+  <div class="gems">
+    <img src="assets/images/blue.png" class=gemImage id="one" alt="Blue Gem">
+    <img src="assets/images/green.png" class=gemImage id="two" alt="Green Gem">
+    <img src="assets/images/red.png" class=gemImage id= "three" alt="Red Gem">
+    <img src="assets/images/yellow.png" class=gemImage id= "four" alt="Yellow Gem">
+</div>
+<div class="userTotal">
+    <h2>Your number is:
+        <span id="finalTotal"></span>
+    </h2>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

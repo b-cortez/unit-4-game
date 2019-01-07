@@ -1,0 +1,89 @@
+/* General Elements*/
+body{
+	background-image: url("../images/background.png")
+}
+div{
+	background-color: lightpink;
+	margin: 10px;
+    width: 35%;
+    height: 40%;
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+h2, p{
+    font-weight: normal;
+    color: whitesmoke;
+}
+h2{
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/* Specfic Elements*/
+div.header, div.gems{
+	background-color: #7d63cb;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+image{
+    float: right;
+    width:50%;
+    background-color: none;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 45%;
+	height: 60px;
+}
+.userTotal{
+	width: 45%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+.krystalgemImage{
+    height: 200px;
+    margin: 10px;
+}
+/* IDs */
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
